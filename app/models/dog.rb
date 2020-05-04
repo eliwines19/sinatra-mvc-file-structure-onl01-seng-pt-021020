@@ -1,18 +1,18 @@
-class Dog 
+class Dog
 
-  attr_accessor :name, :breed, :age 
+  attr_accessor :name, :breed, :age
 
   @@all = []
 
   def initializes(name=nil, breed=nil, age=nil)
-    @name = name 
-    @breed = breed 
-    @age = age 
+    @name = name
+    @breed = breed
+    @age = age
 
-    @@all << self 
+    @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
   
